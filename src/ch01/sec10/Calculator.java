@@ -8,3 +8,5 @@ public class Calculator {
         System.out.println(result);
     }
 }
+
+// 변수 : 메모리 공간에 자리 잡혀 있는것이고 1,2는 리터럴 상수임
