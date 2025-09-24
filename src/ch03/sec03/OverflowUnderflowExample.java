@@ -4,7 +4,7 @@ public class OverflowUnderflowExample {
     public static void main(String[] args) {
         byte var1 = 125;
         for(int i=0; i<5; i++) {    // {}를 5번 반복 실행
-            var1++;                 // ++연산은 var의 값을 1 증가시킨다.
+            var1++;                 // ++연산은 var의 값을 1 증가시킨다. - MSB(0이면 +, 1이면 -)
             System.out.println("var1: " + var1);
         }
         System.out.println("-------------------------------");
