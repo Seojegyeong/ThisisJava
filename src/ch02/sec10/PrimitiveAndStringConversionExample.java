@@ -17,7 +17,5 @@ public class PrimitiveAndStringConversionExample {
         System.out.println("str1: " + str1);
         System.out.println("str2: " + str2);
         System.out.println("str3: " + str3);
-
-
     }
 }

@@ -4,7 +4,7 @@ public class ArithmeticOperatorExample {
     public static void main(String[] args) {
         byte v1 = 10;
         byte v2 = 4;
-        byte v3 = 5;
+        int v3 = 5;
         long v4 = 10L;
 
         int result1 = v1 + v2;
@@ -18,6 +18,5 @@ public class ArithmeticOperatorExample {
 
         int result4 = v1 % v2;
         System.out.println("result4: " + result4);
-
     }
 }
