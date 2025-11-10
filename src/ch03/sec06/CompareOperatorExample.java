@@ -20,22 +20,20 @@ public class CompareOperatorExample {
         int num3 = 1;
         double num4 = 1.0;
         boolean result5 = (num3 == num4);
-        System.out.println("result5: " + result5);
+        System.out.println("result5: " + result5); //result5: true
 
         float num5 = 0.1f;
         double num6 = 0.1;
         boolean result6 = (num5 == num6);
         boolean result7 = (num5 == (float)num6);
-        System.out.println("result6: " + result6);
-        System.out.println("result7: " + result7);
+        System.out.println("result6: " + result6); //result6: false
+        System.out.println("result7: " + result7); //result7: true
 
         String str1 = "자바";
         String str2 = "Java";
-        boolean result8 = (str1.equals(str2));
-        boolean result9 = (! str1.equals(str2));
+        boolean result8 = (str1.equals(str2)); //result8: false
+        boolean result9 = (! str1.equals(str2)); //result9: true
         System.out.println("result8: " + result8);
         System.out.println("result9: " + result9);
-
-
     }
 }

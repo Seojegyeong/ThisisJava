@@ -20,6 +20,6 @@ public class BitLogicExample {
 
         int test = 136;
         byte btest = (byte) test;
-        System.out.println(btest);
+        System.out.println("btest: " + btest);
     }
 }

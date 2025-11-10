@@ -5,13 +5,14 @@ import java.util.Scanner;
 public class task {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        boolean run = true;
-        int balance = 0;
+
+        boolean run = true;  // while문의 무한루프 조건
+        int balance = 0;     // 계좌 잔액
 
         while(run) {
-            System.out.println("---------------------------------");
+            System.out.println("-----------------------------------");
             System.out.println("1. 예금 | 2. 출금 | 3. 잔고 | 4. 종료");
-            System.out.println("---------------------------------");
+            System.out.println("-----------------------------------");
 
             System.out.print("선택: ");
             String strNum = scanner.nextLine();
@@ -29,7 +30,7 @@ public class task {
                 int money = scanner.nextInt();
                 scanner.nextLine();
 
-                if( balance < money){
+                if(balance < money){
                     System.out.println("출금액이 잔고보다 많습니다.");
                 } else {
                     balance -= money;
@@ -41,7 +42,8 @@ public class task {
 
             } else if (strNum.equals("4")){
                 System.out.println("프로그램 종료");
-                run = false;
+                run = false; // while문의 조건 false로 바꾸기
+
             } else {
                 System.out.println("1~4 중에서 선택하세요!:)");
             }

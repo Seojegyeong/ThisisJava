@@ -10,7 +10,7 @@ public class ScannerExample {
         String strX = scanner.nextLine();
         int x = Integer.parseInt(strX);
 
-        System.out.printf("y 값 입력: ");
+        System.out.print("y 값 입력: ");
         String strY = scanner.nextLine();
         int y = Integer.parseInt(strY);
 

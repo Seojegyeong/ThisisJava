@@ -7,7 +7,7 @@ public class ArrayCreateByNewExample {
 
         // 배열 항목의 초기값 출력
         for (int i = 0; i < 3; i++) {
-            System.out.println("arr1[" + i + "] : " + arr1[i] + ",");
+            System.out.println("arr1[" + i + "] : " + arr1[i] );
         }
         System.out.println();
 
@@ -18,7 +18,7 @@ public class ArrayCreateByNewExample {
 
         // 배열 항목의 변경값 출력
         for (int i = 0; i < 3; i++) {
-            System.out.println("arr1[" + i + "] : " + arr1[i] + ",");
+            System.out.println("arr1[" + i + "] : " + arr1[i] );
         }
         System.out.println();
 
@@ -27,7 +27,7 @@ public class ArrayCreateByNewExample {
 
         // 배열 항목의 초기값 출력
         for (int i = 0; i < 3; i++) {
-            System.out.println("arr2[" + i + "] : " + arr2[i] + ",");
+            System.out.println("arr2[" + i + "] : " + arr2[i] );
         }
         System.out.println();
 
@@ -38,7 +38,7 @@ public class ArrayCreateByNewExample {
 
         // 배열 항목의 변경값 출력
         for (int i = 0; i < 3; i++) {
-            System.out.println("arr2[" + i + "] : " + arr2[i] + ",");
+            System.out.println("arr2[" + i + "] : " + arr2[i] );
         }
         System.out.println();
 
@@ -47,7 +47,7 @@ public class ArrayCreateByNewExample {
 
         // 배열 항목의 초기값 출력
         for (int i = 0; i < 3; i++) {
-            System.out.println("arr3[" + i + "] : " + arr3[i] + ",");
+            System.out.println("arr3[" + i + "] : " + arr3[i] );
         }
         System.out.println();
 
@@ -58,7 +58,7 @@ public class ArrayCreateByNewExample {
 
         // 배열 항목의 변경값 출력
         for (int i = 0; i < 3; i++) {
-            System.out.println("arr3[" + i + "] : " + arr3[i] + ",");
+            System.out.println("arr3[" + i + "] : " + arr3[i] );
         }
         System.out.println();
 
